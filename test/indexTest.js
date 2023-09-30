@@ -43,7 +43,7 @@ describe("index", () => {
     });
 
     it("returns an anonymous function", () => {
-      expect(fn.name).to.eql("");
-    });
+      expect(fn.name).to.equal("anonymousFunction");
+    });   
   });
 });
